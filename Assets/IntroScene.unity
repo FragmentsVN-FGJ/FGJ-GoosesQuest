@@ -829,7 +829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.375, g: 0.79310364, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1199,8 +1199,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1404306915}
-  selectedCommands:
-  - {fileID: 1404306925}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1518,8 +1517,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 1404306914}
   - {fileID: 1404306923}
-  - {fileID: 1404306916}
   - {fileID: 1404306925}
+  - {fileID: 1404306916}
 --- !u!114 &1404306916
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1675,14 +1674,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1404306899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  targetObject: {fileID: 619096674}
-  methodName: 
-  delay: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 619096674}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!1 &1464993975
 GameObject:
   m_ObjectHideFlags: 0
